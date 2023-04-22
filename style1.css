@@ -93,8 +93,12 @@ nav .navigation ul li a:hover {
     line-height: 25px;
 }
 
-#home .btn {
-    margin-top: 30px;
+#home .btn1 {
+    margin: 20px;
+}
+
+#home .btn2 {
+    margin-top: -10px;
 }
 
 #home a {
@@ -129,7 +133,6 @@ nav .navigation ul li a:hover {
 }
 
 
-
 #features{
     padding: 5vw 8vw 0 8vw;
     text-align: center;
@@ -157,6 +160,7 @@ nav .navigation ul li a:hover {
     font-weight: 600;
     color: rgb(46, 46, 59);
     padding: 13px 0 7px 0;
+    cursor: pointer;
 }
 
 #features .fea-box p{
@@ -165,9 +169,44 @@ nav .navigation ul li a:hover {
     color: rgb(70, 70, 87);
 }
 
+
+
+#features .fea-box .ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#features .fea-box .ul .li{
+    list-style: none;
+    margin-left: 30px;
+}
+#features .fea-box .ul .li .a {
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+#features .fea-box .ul .li .a:hover {
+    color:#FDC93B
+}
+
+
+
+
+
 #antaret {
     padding: 8vw 8vw 0 8vw;
     text-align: center;
+}
+
+#antaret p {
+    width: 100%;
+    color: rgb(8, 2, 52);
+    font-size: 0.9rem;
+    line-height: 25px;
+
 }
 
 #antaret .antaret-box{
@@ -202,4 +241,99 @@ nav .navigation ul li a:hover {
     color: #fff;
     font-size: 2.2rem;
     letter-spacing: 1px;
+}
+
+#antaret2 {
+    background-color:rgb(220, 197, 144);
+    width: 100%;
+    height: 800vh;
+    background-size: cover;
+    background-position: center;
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#antaret2 p {
+    width: 100%;
+    color: rgb(8, 2, 52);
+    font-size: 0.9rem;
+    line-height: 25px;
+
+}
+
+#antaret2 .antaret-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#antaret2 .antaret-box .profile{
+    background: #fafaf1;
+    padding: 30px 10px;
+
+}
+
+
+#home.a1 {
+    background-color: rgb(189, 84, 198);
+    width: 100%;
+    height: 255vh;
+    background-size: cover;
+    background-position: center;
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+#home.a1 p{
+    width: 100%;
+    color: rgb(8, 2, 52);
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+#home.a2 {
+    background-color: rgb(73, 100, 208);
+    width: 100%;
+    height: 255vh;
+    background-size: cover;
+    background-position: center;
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+#home.a2 p{
+    width: 100%;
+    color: rgb(8, 2, 52);
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+#home.a3 {
+    background-color: rgb(114, 216, 109);
+    width: 100%;
+    height: 255vh;
+    background-size: cover;
+    background-position: center;
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+#home.a3 p{
+    width: 100%;
+    color: rgb(8, 2, 52);
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+#home.k {
+    background-color: rgb(238, 179, 77);
+    width: 100%;
+    height: 255vh;
+    background-size: cover;
+    background-position: center;
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+#home.k p{
+    width: 100%;
+    color: rgb(8, 2, 52);
+    font-size: 0.9rem;
+    line-height: 25px;
 }
