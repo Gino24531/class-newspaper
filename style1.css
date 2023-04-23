@@ -12,7 +12,7 @@ body {
 h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    color:rgba(35, 35, 85);
+    color:rgb(30, 30, 76);
 }
 
 span {
@@ -38,7 +38,7 @@ nav{
 }
 
 nav img {
-    width: 150px;
+    width: 120px;
     cursor: pointer;
 }
 
@@ -48,9 +48,9 @@ nav .navigation .ul {
     align-items: center;
 }
 
-nav .navigation .ul .li {
+#nav .navigation .ul .li {
     list-style: none;
-    margin-left: 30px;
+    
 }
 
 nav .navigation ul li a {
@@ -67,7 +67,7 @@ nav .navigation ul li a:hover {
 
 #home {
     background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), 
-    url(-1200-630-62f3a403aa008.jpeg);
+    url(shkolla.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -206,6 +206,7 @@ nav .navigation ul li a:hover {
     color: rgb(8, 2, 52);
     font-size: 0.9rem;
     line-height: 25px;
+    text-align: left;
 
 }
 
@@ -224,7 +225,7 @@ nav .navigation ul li a:hover {
 
 #fundi{
     background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), 
-    url(604fc2f2260000cc17d854ff.jpeg);
+    url(friends.jpeg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -250,14 +251,21 @@ nav .navigation ul li a:hover {
     padding: 8vw 8vw 0 8vw;
     text-align: center;
     width: 100%;
-    height: 800vh;
+    height: 900vh;
 }
 
 #antaret2 p {
     width: 100%;
-    color: rgb(8, 2, 52);
+    color: rgb(11, 3, 78);
     font-size: 0.9rem;
     line-height: 25px;
+    text-align: left;
+
+}
+#antaret2 h6 {
+    width: 100%;
+    color: rgb(13, 6, 66);
+    text-align: center;
 
 }
 
@@ -269,8 +277,74 @@ nav .navigation ul li a:hover {
 }
 
 #antaret2 .antaret-box .profile{
-    background: #f9f9ff;
+    background: rgba(224, 194, 125, 0.699);
     padding: 30px 10px;
     border-radius: 5px;
 
+}
+
+
+
+#features2 {
+    background-color:rgb(220, 197, 144);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800vh;
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#features2 .fea-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#features2 .fea-box{
+    background: rgba(224, 194, 125, 0.699);
+    text-align: start;
+}
+
+#features2 .fea-box i{
+    font-size: 2.3rem;
+    color: rgb(44, 44, 80)
+}
+
+#features2 .fea-box h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(46, 46, 59);
+    padding: 13px 0 7px 0;
+    cursor: pointer;
+}
+
+#features2 .fea-box p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(70, 70, 87);
+}
+
+
+
+#features .fea-box .ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#features .fea-box .ul .li{
+    list-style: none;
+    margin-left: 30px;
+}
+#features .fea-box .ul .li .a {
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+#features .fea-box .ul .li .a:hover {
+    color:#FDC93B
 }
