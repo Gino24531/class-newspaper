@@ -35,6 +35,7 @@ nav{
     align-items: center;
     padding: 1vw 8vw;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 999;
 }
 
 nav img {
@@ -42,18 +43,18 @@ nav img {
     cursor: pointer;
 }
 
-nav .navigation .ul {
+nav .navigim ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-#nav .navigation .ul .li {
+nav .navigim ul li{
     list-style: none;
-    
+    margin-left: 30px;
 }
 
-nav .navigation ul li a {
+nav .navigim ul li a {
     text-decoration: none;
     color: rgb(21, 21, 100);
     font-size: 16px;
@@ -61,7 +62,7 @@ nav .navigation ul li a {
     transition: 0.3s ease;
 }
 
-nav .navigation ul li a:hover {
+nav .navigim ul li a:hover {
     color:#FDC93B
 }
 
@@ -347,4 +348,47 @@ nav .navigation ul li a:hover {
 
 #features .fea-box .ul .li .a:hover {
     color:#FDC93B
+}
+
+#artikull1 {
+    background-color:rgb(236, 217, 172);
+    background-size: cover;
+    background-position: center;
+    padding: 8vw 8vw 2vw 8vw;
+    display: flex;
+    align-items: center;
+}
+
+#artikull1 p {
+    width: 100%;
+    color: rgb(11, 3, 78);
+    font-size: 0.9rem;
+    line-height: 25px;
+    text-align: justify;
+
+}
+
+#artikull1 h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:rgb(30, 30, 76);
+}
+
+#artikull1 .artikull1foto {
+    width: 60%;
+}
+
+#artikull1 .artikull1text {
+    width: 80%;
+    padding: 60px;
+}
+
+@media (max-width: 769px){
+    nav {
+        padding: 15px 20px;
+    }
+    nav img {
+        width: 100px;
+    }
 }
