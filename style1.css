@@ -43,27 +43,13 @@ nav img {
     cursor: pointer;
 }
 
-nav .navigim ul{
+nav .navigim .ul{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    text-align: center;
 }
-
-nav .navigim ul li{
+nav .navigim .ul .li{
     list-style: none;
-    margin-left: 30px;
-}
-
-nav .navigim ul li a {
-    text-decoration: none;
-    color: rgb(21, 21, 100);
-    font-size: 16px;
-    font-weight: 500;
-    transition: 0.3s ease;
-}
-
-nav .navigim ul li a:hover {
-    color:#FDC93B
 }
 
 #home {
@@ -334,13 +320,17 @@ nav .navigim ul li a:hover {
     font-weight: 700;
     color:rgb(30, 30, 76);
 }
+#artikull1 h6 {
+    text-align: center;
+    font-weight: 450;
+    color:rgb(39, 39, 123);
+}
 
 #artikull1 .imgint {
-    width: 60%;
+    width: 50%;
     position: absolute;
-    left: 20%;
-    right: 10%;
-    top: 330%;
+    left: 25%;
+    right: 25%;
     
 }
 
