@@ -54,7 +54,7 @@ nav .navigim .ul .li{
 
 #home {
     background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), 
-    url(shkolla.jpg);
+    url(shkolla3.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -158,30 +158,6 @@ nav .navigim .ul .li{
 
 
 
-#features .fea-box .ul{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-#features .fea-box .ul .li{
-    list-style-type: none;
-    margin-left: 30px;
-}
-#features .fea-box .ul .li .a {
-    text-decoration: none;
-    color: rgb(21, 21, 100);
-    font-size: 16px;
-    font-weight: 500;
-    transition: 0.3s ease;
-}
-
-#features .fea-box .ul .li .a:hover {
-    color:#FDC93B
-}
-
-
-
-
 
 #antaret {
     padding: 8vw 8vw 0 8vw;
@@ -212,7 +188,7 @@ nav .navigim .ul .li{
 
 #fundi{
     background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), 
-    url(friends.jpeg);
+    url(Screenshot_2-3.png);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -233,7 +209,7 @@ nav .navigim .ul .li{
 
 
 #features2 {
-    background-color:rgb(220, 197, 144);
+    background-color:rgb(236, 217, 172);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -241,6 +217,7 @@ nav .navigim .ul .li{
     padding: 5vw 8vw 0 8vw;
     text-align: center;
 }
+
 
 #features2 .fea-base{
     display: grid;
@@ -250,8 +227,9 @@ nav .navigim .ul .li{
 }
 
 #features2 .fea-box{
-    background: rgba(224, 194, 125, 0.699);
+    background: rgba(236, 200, 116, 0.526);
     text-align: start;
+    border-radius: 5px;
 }
 
 #features2 .fea-box i{
